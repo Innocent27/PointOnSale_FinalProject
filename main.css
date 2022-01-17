@@ -1,0 +1,14 @@
+#products {
+	flex-wrap: wrap;
+	gap: 20px;
+}
+
+img {
+	height: 200p;
+	object-fit: cover;
+}
+
+.card {
+	width: calc((100% / 3 - 15px));
+	min-width: 200px;
+}
