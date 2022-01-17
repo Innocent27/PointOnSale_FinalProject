@@ -275,17 +275,6 @@ function sortPrice() {
   readProducts(sortedProducts);
 }
 //searching 
-// function sortCategory() {
-//   let searchTerm = document.querySelector("#search").value;
-
-//   if (category == "All") {
-//     return readProducts(products);
-//   }
-
-//   let foundProducts = products.filter((product) => {
-//     return product.category == category;
-//   });
-
-//   readProducts(foundProducts);
-//   console.log(foundProducts);
-// }
+function search() {
+  alert("Sorry the search function is still under development");
+}
